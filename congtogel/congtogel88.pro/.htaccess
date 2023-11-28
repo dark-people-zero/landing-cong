@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^congtogel88\.pro$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.congtogel88\.pro$
+RewriteRule ^(.*)$ "https\:\/\/congtogell88\.pro\/$1" [R=301,L]
+

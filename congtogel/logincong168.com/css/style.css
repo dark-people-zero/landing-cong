@@ -1,0 +1,155 @@
+.red-gradient {
+  background: rgb(204, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(204, 0, 0, 1) 0%,
+    rgba(128, 0, 0, 1) 100%,
+    rgba(128, 0, 0, 1) 100%
+  );
+}
+
+.link-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.link-layout-1 {
+  background: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  padding: 6px;
+}
+.link-layout-1:hover {
+  background: rgb(229, 229, 229);
+}
+
+.link-wrapper .link-image-wrapper {
+  flex-shrink: 0;
+}
+
+.link-image {
+  border-radius: 24px;
+}
+
+.link-wrapper .link-title-bg {
+  flex: 1;
+}
+
+.link-layout-1 .link-title-wrapper {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.link-wrapper .link-title-wrapper .link-title {
+  color: #1a1a1a;
+  font-family: OpenSans-Bold, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  word-break: break-word;
+}
+
+.link-wrapper .link-image-wrapper .link-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.link-layout-1 .link-image-wrapper img {
+  height: 100%;
+}
+
+img {
+  -webkit-touch-callout: none;
+  border-style: none;
+  max-width: 100%;
+  user-select: none;
+}
+
+.link-layout-1 .link-image-place {
+  height: 48px;
+  width: 48px;
+}
+
+.link-share-icon {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: hsla(0, 0%, 8%, 0.2)
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dXRDYIwFAXQ1gl0A/f/ESfAEdwENnhC1IQPRYIpNfGcpD99N+ntT5sSAAAAAADAT4iI47DaYXVxdxr3auWLepR5FpnqXpUqnS9uOLSJ99qt80vltNJ46sy4zzkftswvtUvr9TOzfYX8It9c+DozO1fIlxX/9mhNSjWTIpf4/M0UywMAAAAAAGzrBrSOqdmyOhomAAAAAElFTkSuQmCC)
+    no-repeat 50%;
+  background-size: cover;
+  border-radius: 50%;
+  height: 32px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .link-share-icon {
+    display: none;
+  }
+}
+
+.land-link-line {
+  display: block;
+  padding: 8px 0;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.land-btn {
+  appearance: none;
+  background: transparent;
+  box-sizing: border-box;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  pointer-events: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.land-link-item {
+  padding: 10px 0;
+}
+
+.land-link {
+  position: relative;
+}
+
+.land-card {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transition: transform 0.3s;
+}
+
+.land-card:hover {
+  transform: scale(1.1);
+}
+
+.land-card-content {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-style-2 {
+  border-radius: 30px;
+  box-shadow: 0 7px 13px 1px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+
+.link-layout-1 .link-image-wrapper {
+  height: 48px;
+  width: 48px;
+}

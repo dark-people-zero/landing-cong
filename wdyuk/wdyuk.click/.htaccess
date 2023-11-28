@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^wdyuk\.click$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wdyuk\.click$
+RewriteRule ^(.*)$ "https\:\/\/wdyok\.click\/$1" [R=301,L]
+

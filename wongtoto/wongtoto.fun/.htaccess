@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^wongtoto\.fun$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wongtoto\.fun$
+RewriteRule ^(.*)$ "https\:\/\/wongtoto8\.fun\/$1" [R=301,L]
+
